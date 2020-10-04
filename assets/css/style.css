@@ -47,12 +47,25 @@ header nav ul li a {
   background-size: cover;
   background-position: center;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(13, 1fr);
+  grid-template-columns: 200px;
+  grid-template-rows: 400px;
 }
 
 .hero h2 {
   color: #dfd8d3;
-  grid-column: 3;
+  background-color: #004256;
+  grid-column: 11 / 12;
   grid-row: 12;
+  background-size: contain;
+}
+
+.section-title {
+
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
 }
